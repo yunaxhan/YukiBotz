@@ -8,7 +8,7 @@ let handler = async (m, { conn, command }) => {
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
     else who = m.quoted.sender ? m.quoted.sender : m.sender;
 
-    let ppUrl = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/2bf92f8497fddc063b203.jpg");
+    let ppUrl = await conn.profilePictureUrl(who, 'image').catch((_) => "https://files.catbox.moe/57yjn5.jpeg");
     let pp = await (await fetch(ppUrl)).buffer();
 
     let user = global.db.data.users[who];
@@ -16,13 +16,13 @@ let handler = async (m, { conn, command }) => {
     let username = user.name;
     let { min, xp, max } = levelling.xpRange(user.level, global.multiplier)
     let curr = user.exp - min
-    let limit = user.premium ? '∞' : user.limit;
+    let limit = user.premium ? '∞' : user.limit; // Mengubah limit user premium menjadi 'Infinity' jika pengguna adalah premium
     let balance = user.money > 9999999999 ? '4̶0̶4̶ N̶o̶t̶ F̶o̶u̶n̶d̶' : user.money;
-    let saldo = user.saldo;
-    let level = user.level > 9999 ? '4̶0̶4̶ N̶o̶t̶ F̶o̶u̶n̶d̶' : user.level;
+    let saldo = user.saldo; // Mengubah balance user yang lebih dari 999999999 menjadi 'Infinity'
+    let level = user.level > 9999 ? '4̶0̶4̶ N̶o̶t̶ F̶o̶u̶n̶d̶' : user.level; // Mengubah level pengguna yang lebih dari 9999 menjadi 'Infinity'
     let role = user.role;
     let skill = user.skill;
-    let rank = user.owner ? 'Immortality' : user.premium ? 'Sepuh' : 'Kroco';
+    let rank = user.owner ? 'Immortality' : user.premium ? 'Sepuh' : 'Kroco'; // Menambahkan 'Not Found' jika rank tidak terdefinisi
     let point = user.point
     let age = user.age > 4000 ? 'Unknown' : user.age;
     let isPremium = user.premium ? "Premium" : "Free User";
@@ -70,20 +70,21 @@ let handler = async (m, { conn, command }) => {
     }}}, {quoted: m})
   } catch {
     let sender = m.sender;;
-    let ppUrl = await conn.profilePictureUrl(sender, 'image').catch((_) => "https://telegra.ph/file/2bf92f8497fddc063b203.jpg");
+    let ppUrl = await conn.profilePictureUrl(sender, 'image').catch((_) => "https://files.catbox.moe/57yjn5.jpeg");
     let pp = await (await fetch(ppUrl)).buffer();
+
     let user = global.db.data.users[sender];
     let clans = user.cname
     let username = user.name;
     let { min, xp, max } = levelling.xpRange(user.level, global.multiplier)
     let curr = user.exp - min
-    let limit = user.premium ? '∞' : user.limit;
-    let balance = user.money > 9999999999 ? '4̶0̶4̶ N̶o̶t̶ F̶o̶u̶n̶d̶' : user.money;
+    let limit = user.premium ? '∞' : user.limit; // Mengubah limit user premium menjadi 'Infinity' jika pengguna adalah premium
+    let balance = user.money > 9999999999 ? '4̶0̶4̶ N̶o̶t̶ F̶o̶u̶n̶d̶' : user.money; // Mengubah balance user yang lebih dari 999999999 menjadi 'Infinity'
     let saldo = user.saldo; 
-    let level = user.level > 9999 ? '4̶0̶4̶ N̶o̶t̶ F̶o̶u̶n̶d̶' : user.level; 
+    let level = user.level > 9999 ? '4̶0̶4̶ N̶o̶t̶ F̶o̶u̶n̶d̶' : user.level; // Mengubah level pengguna yang lebih dari 9999 menjadi 'Infinity'
     let role = user.role;
     let skill = user.skill;
-    let rank = user.owner ? 'Immortality' : user.premium ? 'Sepuh' : 'Kroco';
+    let rank = user.owner ? 'Immortality' : user.premium ? 'Sepuh' : 'Kroco'; // Menambahkan 'Not Found' jika rank tidak terdefinisi
     let point = user.point
     let age = user.age > 4000 ? 'Unknown' : user.age;
     let isPremium = user.premium ? "Premium" : "Free User";
