@@ -1,10 +1,11 @@
+//
+
 let axios = require('axios');
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) throw `✳️ Gunakan perintah:\n *${usedPrefix + command}* https://www.instagram.com/reel/DBOv5iPyCZC/`;
 
     try {
-        // Kirim reaksi menunggu
         conn.sendMessage(m.chat, {
             react: {
                 text: '🕒',
@@ -15,10 +16,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         let res = await instagramDownload(args[0]);
         if (!res.status) throw `⚠️ ${res.msg}`;
 
-        // Kirim file video dengan caption
         await conn.sendFile(m.chat, res.result, 'instagram.mp4', `Done Kak ✓`, m);
 
-        // Kirim reaksi selesai
         conn.sendMessage(m.chat, {
             react: {
                 text: '✅',
@@ -26,7 +25,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             }
         });
     } catch (err) {
-        // Kirim reaksi error
         conn.sendMessage(m.chat, {
             react: {
                 text: '❌',
