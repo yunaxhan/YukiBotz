@@ -4,7 +4,7 @@ let moment = require('moment-timezone')
 // Owner
 global.owner = [
   ['6285717062467'],
-  ['62895403222792'],
+  ['6285717062467'],
   ['6285717062467', 'DitzDev', 'contact@yuki.my.id', true]
 ] // Put your number here
 global.mods = ['6285891267541'] // Moderator
