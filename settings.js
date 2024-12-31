@@ -5,14 +5,14 @@ let moment = require('moment-timezone')
 global.owner = [
   ['6285717062467'],
   ['62895403222792'],
-  ['6285717062467', 'DitzOfc', 'contact@yuki.my.id', true]
+  ['6285717062467', 'DitzDev', 'contact@yuki.my.id', true]
 ] // Put your number here
 global.mods = ['6285891267541'] // Moderator
 global.prems = ['6285717062467'] // Premium
 global.rose = 'YqzaFbPLBTCgEmCyqUHysLw9pRUw12CCELJxw6N7viYc1c3VDxk31iIGoomCzK0Z';
 global.lolkey = 'pentilkuda';
-global.neo = 'DitzOfc';
-global.alya = 'DitzOfc';
+global.neo = 'DitzDev';
+global.alya = 'DitzDev';
 global.yanz = 'Fardankey';
 global.xzn = 'Always ditz';
 global.APIs = {
@@ -27,9 +27,9 @@ global.APIs = {
 global.APIKeys = {
     // APIKey Here
     // 'https://website': 'apikey'
-    'https://api.neoxr.eu': 'DitzOfc',
+    'https://api.neoxr.eu': 'DitzDev',
     'https://api.lolhuman.xyz': 'pentilkuda',
-    'https://api.alyachan.dev': 'DitzOfc',
+    'https://api.alyachan.dev': 'DitzDev',
     'https://skizo.tech': 'Always ditz',
     'https://api.yanzbotz.my.id': 'Fardankey'
 }
@@ -43,7 +43,7 @@ if (stickerpack.spackname == '') {
   var sticker_author = 'Tenka Bot'
 } else {
   var sticker_name = 'Sticker By'
-  var sticker_author = 'Komari Bot'
+  var sticker_author = 'Yuki Bot'
 }
 
 const file_exif = "lib/exif.json"
@@ -63,7 +63,7 @@ global.sessionName = 'Ditz' // Jangan Di Ubah
 global.gcbot = 'https://chat.whatsapp.com/CfoZa7yhouZ51XXYM3lKY7'
 global.instagram = 'https://instagram.com/wayssokasik'
 // buttons settings
-global.namebot = '© Komari_Botz(Public Bot)'
+global.namebot = '© YukiBotz(Public Bot)'
 global.botversi = '2.0.1'
 global.thumb = 'https://telegra.ph/file/cc3f75f0666f503d367a3.jpg'
 global.docthumb = 'https://telegra.ph/file/7ca545ade6f60b4a4a771.jpg'
@@ -84,7 +84,7 @@ global.eggs = '15'
 global.locs = '1'
 // Sosial Media
 global.sig = '-'
-global.syt = 'https://youtube.com/@DitzOfc'
+global.syt = 'https://youtube.com/@DitzDev'
 global.sgh = '-'
 global.sgc = 'https://chat.whatsapp.com/CfoZa7yhouZ51XXYM3lKY7'
 global.swa = 'https://wa.me/6285717062467'
@@ -109,16 +109,16 @@ global.useMulti = true
 global.autoread = true
 
 // Watermark
-global.packname = 'DitzOfc'
+global.packname = 'DitzDev'
 global.author = '-'
-global.wm = '©DitzOfc'
-global.wm2 = 'DitzOfc'
+global.wm = '©DitzDev'
+global.wm2 = 'DitzDev'
 global.titlebot = `${global.wm}`
 global.danied = 'A K S E S  K A M U  D I  T O L A K!!'
 global.done = '```Status Request :```' + ' `Succes`'
-global.packname = 'Komari_Botz'
+global.packname = 'YukiBotz'
 global.author = 'Aditya'
-global.nameown = 'DitzOfc'
+global.nameown = 'DitzDev'
 global.wait = 'Wait a moment... '
 
 // Tampilan
