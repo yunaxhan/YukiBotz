@@ -3,18 +3,18 @@ let chalk = require('chalk')
 let moment = require('moment-timezone')
 // Owner
 global.owner = [
-  ['6285717062467'],
-  ['6285717062467'],
-  ['6285717062467', 'DitzDev', 'contact@yuki.my.id', true]
+  ['6285950080094'],
+  ['6285950080094'],
+  ['6285950080094', 'zielyourfavdec', 'contact@yuki.my.id', true]
 ] // Put your number here
-global.mods = ['6285891267541'] // Moderator
-global.prems = ['6285717062467'] // Premium
+global.mods = ['6285950080094'] // Moderator
+global.prems = ['6285950080094'] // Premium
 global.rose = 'YqzaFbPLBTCgEmCyqUHysLw9pRUw12CCELJxw6N7viYc1c3VDxk31iIGoomCzK0Z';
 global.lolkey = 'pentilkuda';
-global.neo = 'DitzDev';
-global.alya = 'DitzDev';
-global.yanz = 'Fardankey';
-global.xzn = 'Always ditz';
+global.neo = 'ziel';
+global.alya = 'ziel';
+global.yanz = 'zielkey';
+global.xzn = 'Always ziel';
 global.APIs = {
     // API Prefix
     // name: 'https://website'
@@ -61,7 +61,7 @@ global.atlaapi= '8Zv6ptlT6VAyLTi0MXBgDr4gQgweeC7X1mZWcFuyFSQteGJ8GHuH8eS71BDhHc8
 global.version = '2.0.1'
 global.sessionName = 'Ditz' // Jangan Di Ubah
 global.gcbot = 'https://chat.whatsapp.com/CfoZa7yhouZ51XXYM3lKY7'
-global.instagram = 'https://instagram.com/wayssokasik'
+global.instagram = 'https://instagram.com/0kiryyu'
 // buttons settings
 global.namebot = '© YukiBotz(Public Bot)'
 global.botversi = '2.0.1'
@@ -71,10 +71,10 @@ global.footer = 'Powered By _*Dev. Expertise*_'
 global.newsletterJid = '120363279875321922@newsletter'
 // Others 
 global.qris = 'https://telegra.ph/file/bcb93fafb22f139ff1512.jpg'
-global.email = 'AditGantengJir@gmail.com'
-global.creator = "6285717062467@s.whatsapp.net"
-global.nomorbot = '-'
-global.nomorown = '6285717062467'
+global.email = 'shiashial681@gmail.com'
+global.creator = '6285717062467@s.whatsapp.net"
+global.nomorbot = '6289532697069'
+global.nomorown = '6285950080094'
 
 // Panel
 global.domain = '' // Domain Web
@@ -84,10 +84,10 @@ global.eggs = '15'
 global.locs = '1'
 // Sosial Media
 global.sig = '-'
-global.syt = 'https://youtube.com/@DitzDev'
+global.syt = 'https://youtube.com/@kawaii.xe'
 global.sgh = '-'
 global.sgc = 'https://chat.whatsapp.com/CfoZa7yhouZ51XXYM3lKY7'
-global.swa = 'https://wa.me/6285717062467'
+global.swa = 'https://wa.me/6285950080094'
 global.swb = '-' // Link Discord
 global.snh = '' // Link nhentai
 
@@ -109,16 +109,16 @@ global.useMulti = true
 global.autoread = true
 
 // Watermark
-global.packname = 'DitzDev'
+global.packname = 'zhe.'
 global.author = '-'
-global.wm = '©DitzDev'
+global.wm = '©zielyourfavdec'
 global.wm2 = 'DitzDev'
 global.titlebot = `${global.wm}`
 global.danied = 'A K S E S  K A M U  D I  T O L A K!!'
 global.done = '```Status Request :```' + ' `Succes`'
 global.packname = 'YukiBotz'
-global.author = 'Aditya'
-global.nameown = 'DitzDev'
+global.author = 'ziel'
+global.nameown = 'zielyourfavdec'
 global.wait = 'Wait a moment... '
 
 // Tampilan
