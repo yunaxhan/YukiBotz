@@ -72,7 +72,7 @@ global.newsletterJid = '120363279875321922@newsletter'
 // Others 
 global.qris = 'https://telegra.ph/file/bcb93fafb22f139ff1512.jpg'
 global.email = 'shiashial681@gmail.com'
-global.creator = '6285717062467@s.whatsapp.net"
+global.creator = '6285717062467@s.whatsapp.net'
 global.nomorbot = '6289532697069'
 global.nomorown = '6285950080094'
 
@@ -112,7 +112,7 @@ global.autoread = true
 global.packname = 'zhe.'
 global.author = '-'
 global.wm = '©zielyourfavdec'
-global.wm2 = 'DitzDev'
+global.wm2 = 'ziel'
 global.titlebot = `${global.wm}`
 global.danied = 'A K S E S  K A M U  D I  T O L A K!!'
 global.done = '```Status Request :```' + ' `Succes`'
